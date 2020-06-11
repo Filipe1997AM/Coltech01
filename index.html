@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+    margin: 0%;
+    padding: 0%; }
+
+body{width: 100%;
+    min-width: 1330px;
+
+}
+.header{
+    width: 100%;
+    display: inline-flex;
+    height: 8vh;
+    background-color: gray;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0%;
+    left: 0%;
+    z-index: 300;
+}
+.logo{
+    width: 9%; 
+    height: 8vh; 
+}
+.logo img{
+    width: 75%;
+    height: 95%;
+    margin-top: 0%;
+}
+.links{
+    width: 70%;
+
+}
+.links ul{
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+
+    list-style: none;
+    align-items: center;
+
+}
+
+.links li a{
+    text-decoration: none;
+}
+.search{
+    width: 20%;
+    display: inline-flex;
+    padding: 1vh;
+    align-items: center;
+    justify-content: space-around;  
+    border-radius: 20px;
+    background-color: #fe6600;
+    top: 0%;
+}
+.search input{
+    width: 80%;
+    outline: none;
+    background-color: #fe6600;
+    border-style: none;      
+}
+.search img{
+    width: 13%;
+    height: 13%;
+}
+.search input:focus, .search input::placeholder{
+    color: white;
+    border-style: none;
+}
+a.linkum, a{
+    text-decoration: none;
+    color:rgb(248, 104, 1);
+    color:rgb(252, 127, 38);
+    padding-bottom: 2vh;                
+}
+a.linkum:hover{
+    color: rgb(84, 103, 113);
+    border-bottom:2px solid rgb(84, 103, 113);
+}
+a:hover{
+    color: rgb(84, 103, 113);
+}
+div.info{
+    padding-top: 8vh;
+}
+.info p{
+    font-size: 95%;
+    margin: 1vh;
+    text-align: center;
+}
+            .pgquatro{
+    width: 100%;
+    display: inline-block;
+    background-image: url(space2.jpg);
+}
+.colocarmargenstime{
+    margin: 10vh 10vh;
+}
+div.titquatro {
+    padding-bottom: 6vh;
+    display: inline-flex;
+}
+div.titquatro p{
+    border-bottom:0.3vh solid #fe6600;
+    color: #ffffff;
+    width: 100%;
+    font-size: 150%;
+    font-weight:600;
+    
+    
+}
+div.teams{
+    width: 100%;
+    display: inline-block;
+}
+div.teamcima, div.teammeio, div.teambaixo{
+    position: relative;
+    z-index: 20;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cima1, .cima2, .cima3, .cima4{
+    width: 20%;
+    display: inline-block;
+}
+div.foto{
+    width: 100%;
+}
+
+div.foto a, div.foto img{
+    position: relative;
+    z-index: 20;
+    text-indent: -9999px;
+    width: 30vh;
+    height: 30vh;
+    background-size:100% 100%;
+    display: inline-block;
+    border-radius: 50%;
+}
+ 
+
+
+div.legenda{
+    z-index: 20;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    margin: 2vh 0vh 5vh 1vh;                   }
+    
+div.legenda p{
+    color: rgb(248, 104, 1);
+    width: 75%;
+    text-align: center;}
+    
+div.legenda a{
+    width: 25%;
+    text-align: left;
+    }
+    #r2d2{
+    z-index: 10;
+    float: left;
+    transform: rotate(30deg);
+    margin-top: -7%;
+    margin-left: 7%;
+    position: absolute;
+    width: 20vh;
+    height: auto;
+}
+        </style>
+    </head>
+    <body>
+        <a name="home"></a>
+        <section class="header"> 
+            <div class="logo">
+                <img class="coltech" src="coltechh.png" height="73px" alt="" >
+            </div>
+            <div class="links">               
+                <ul>
+                    <!-- justify content em x e align content em y -->
+                    
+                    
+                    <li><a class="linkum" href="#home">Home</a></li>
+                    <li><a class="linkum" href="#Introduzindo">Quem Somos</a></li>
+                    <li><a class="linkum" href="#serviços">Serviços</a></li>
+                    <li><a class="linkum" href="#time">Time</a></li>
+                    <li><a class="linkum" href="#portifólio">Portifólio</a></li>
+                    <li><a class="linkum" href="#contatos">Contatos</a></li>
+                </ul>
+            
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Pesquisar">
+                <img src="search2.png" alt="search"  >
+            </div>
+
+        </section>
+        <div class="info">
+
+            <p><i> Contate-nos! Ligue para 4002-8922 ou acesse nosso <a href="">suporte</a></i></p>  
+    
+        </div>  
+
+        <section class="pgquatro">
+            <a name="time"></a> 
+            <div class="colocarmargenstime">
+                <div class="titquatro">
+                    <p>Nosso Time</p>
+                </div>
+                
+                <div class="teams">
+                    <div class="teamcima">
+                        <div class="cima1">
+                           <div class="foto">
+                                <script>(new Image()).src = "babyyoda.jpg";</script>
+                               <img src="renata.jpg" alt=""
+                               onmouseover="this.src='babyyoda.jpg'"
+                               onmouseout="this.src='renata.jpg'">
+                            
+                           </div>
+                           <div class="legenda">
+                                <p>Renata Reis <br>
+                                Presidente</p>
+                                <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                           </div>
+                        </div>
+                        <div class="cima2">
+                           <div class="foto">
+                                <script>(new Image()).src = "luke2.png";</script>
+                                <img src="gabrielrezende-VP.jpg" alt=""
+                               onmouseover="this.src='luke2.png'"
+                               onmouseout="this.src='gabrielrezende-VP.jpg'">
+                       </div>
+                       <div class="legenda">
+                            <p>Gabriel Cabelo Rezende <br>
+                                VP</p>
+                                <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                       </div>
+                        </div>
+                        <div class="cima3">
+                            <div class="foto">
+                                <script>(new Image()).src = "obiwan.png";</script>
+                                <img src="danielmoreiradiretorcomercial.jpg" alt=""
+                               onmouseover="this.src='obiwan.png'"
+                               onmouseout="this.src='danielmoreiradiretorcomercial.jpg'">
+                           </div>
+                           <div class="legenda">
+                                <p>Daniel Moreira <br>
+                                    Diretor Comercial </p>
+                                    <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                           </div>
+                        </div>
+                        <div class="cima4">
+                            <div class="foto">
+                                <img id="r2d2" src="r2d2-removebg-preview (1).png" alt="">
+                                <script>(new Image()).src = "rey.png";</script>
+                                <img src="samilycorreadiretoradeprojetosengmecanica.jpg" alt=""
+                               onmouseover="this.src='rey.png'"
+                               onmouseout="this.src='samilycorreadiretoradeprojetosengmecanica.jpg'">
+                           </div>
+                           <div class="legenda">
+                                <p>Samily Correa <br>
+                                    Diretora de Projetos</p>
+                                    <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="teammeio">
+                        <div class="cima1">
+                            <div class="foto">
+                                <script>(new Image()).src = "padme.png";</script>
+                                <img src="ursulavelilagermarketing.jpg" alt=""
+                                onmouseover="this.src='padme.png'"
+                                onmouseout="this.src='ursulavelilagermarketing.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Ursula Velilla <br>
+                                    Gerente de Marketing</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima2">
+                             <div class="foto">
+                                <script>(new Image()).src = "kylo.png";</script>
+                                <img src="khaleblisboagerfinanceiro.jpg" alt=""
+                                onmouseover="this.src='kylo.png'"
+                                onmouseout="this.src='khaleblisboagerfinanceiro.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Khaleb Lisboa <br>
+                                    Gerente Financeiro</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima3">
+                             <div class="foto">
+                                <script>(new Image()).src = "rosetico.png";</script>
+                                <img src="alejandraninagercomercial.jpg" alt=""
+                                onmouseover="this.src='rosetico.png'"
+                                onmouseout="this.src='alejandraninagercomercial.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Alejandra Nina <br>
+                                    Gerente Comercial</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima4">
+                             <div class="foto">
+                                <script>(new Image()).src = "ahsokatano.png";</script>
+                                <img src="mayra.jpg" alt=""
+                                onmouseover="this.src='ahsokatano.png'"
+                                onmouseout="this.src='mayra.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Mayra Palpatine <br>Jedi - Ordem Coltech</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="teambaixo">
+                        <div class="cima1">
+                            <div class="foto">
+                                <script>(new Image()).src = "hansolo.png";</script>
+                                <img src="lucas.jpg" alt=""
+                                onmouseover="this.src='hansolo.png'"
+                                onmouseout="this.src='lucas.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Lucas Skywalker <br>Jedi - Ordem Coltech</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima2">
+                             <div class="foto">
+                                <script>(new Image()).src = "trooper.png";</script>
+                                <img src="nome1.jpg" alt=""
+                                onmouseover="this.src='trooper.png'"
+                                onmouseout="this.src='nome1.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Sem Nome <br>Jedi - Ordem Coltech</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima3">
+                             <div class="foto">
+                                <script>(new Image()).src = "darth.png";</script>
+                                <img src="nome2.jpg" alt=""
+                                onmouseover="this.src='darth.png'"
+                                onmouseout="this.src='nome2.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Sem Nome <br>Jedi - Ordem Coltech</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                         <div class="cima4">
+                             <div class="foto">
+                                <script>(new Image()).src = "c3po.png";</script>
+                                <img src="evoneytavaresconsultor.jpg" alt=""
+                                onmouseover="this.src='c3po.png'"
+                                onmouseout="this.src='evoneytavaresconsultor.jpg'">
+                            </div>
+                            <div class="legenda">
+                                 <p>Evoney Tavares <br>
+                                    Consultor Coltech</p>
+                                 <a href="https://www.linkedin.com/company/coltech/?originalSubdomain=br" target="blank"><i id="in" class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <a name="portifólio"></a> 
+            <a href=""></a>
+        </section>
+    </body>
+</html>
